@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "cc998194-ee36-43b0-bafc-4c12a376bb6f",
+		"name": "MonteroGarcíaAntonioTipoA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/alumno/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alumno",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/alumno/{id}/nota/{nota}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"alumno",
+						"{id}",
+						"nota",
+						"{nota}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
